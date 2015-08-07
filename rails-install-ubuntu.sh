@@ -3,7 +3,7 @@
 set -e
 
 echo "Adding PPA for up-to-date Node.js runtime. Give your password when asked."
-sudo add-apt-repository ppa:chris-lea/node.js
+sudo add-apt-repository -y ppa:chris-lea/node.js
 
 echo "Updates packages. Asks for your password."
 sudo apt-get update -y
